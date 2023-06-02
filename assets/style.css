@@ -1,0 +1,31 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(147, 148, 148);
+}
+
+header, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    margin: 30px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(116, 116, 116);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .2s;
+}
+button:active{
+    background-color: rgb(58, 58, 58);
+    color: rgb(196, 196, 196);
+    transform: scale(0.80);
+}
